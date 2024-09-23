@@ -715,3 +715,9 @@ li {
 .commentbox{
     margin-left: 20px;
 }
+
+
+/* ############## blog post ##################### */
+.blogpost{
+    background-color: lightblue;
+}

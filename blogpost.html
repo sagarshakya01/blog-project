@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./blog.css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Post Blog</title>
+</head>
+<body>
+    <header>
+        <div class="header header-about">
+          <div class="navbar">
+            <div class="container">
+              <h1 class="logo ">GAMING BLOG</h1>
+              <ul>
+                <li class="nav-item"><a href="./index.html">HOME</a></li>
+                <li class="nav-item"><a href="./about.html">ABOUT</a></li>
+                <li class="nav-item"><a href="./contact.html">CONTACT</a></li>
+                <li class="nav-item "><a href="./product.html">PRODUCT</a></li>
+                <!-- <li class="nav-itemin red"><a href="./singout.html">Sing Out</a></li> -->
+                <li class="nav-itemin green"><a href="./singin.html">Sing In</a></li>
+               <a href="./profile.html"> <i class="fa-solid fa-user user"></i></a>
+              </ul>
+            </div>
+          </div>
+          <div class="hamburger-menu">
+            <input type="checkbox">
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./about.html">ABOUT</a></li>
+              <li><a href="./contact.html">CONTACT</a></li>
+              <li><a href="./product.html">PRODUCT</a></li>
+              <li><a href="./singin.html">SING IN</a></li>
+              <!-- <li class="singout-line"><a href="./singout.html">SING OUT</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <h1>Blog Post</h1>
+        <fieldset>
+            <form action="" class="blogpost">
+                <legend>Blog Details</legend><br><br>
+                <label for="Title">Title</label>
+                <input type="text" id="Title" name="Title" placeholder="Enter your Title" required>
+
+
+
+                <legend>Author Information</legend><br>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required><br>
+                <label for="detail">Author Education Details </label>
+                <input type="text" name="detail" id="detail" placeholder="Enter your Education Details" required><br>
+
+
+                <legend>Content</legend><br>
+                <label for="content">Add Content</label>
+                <textarea name="content" id="content" cols="50" rows="20" placeholder="Enter your Content Here." ></textarea><br>
+                <label for="video">Image or Video</label>
+                <input type="video" name="video" id="video" placeholder="Enter your Image or Video."><br>
+                <label for="text">Comment Section</label><br><br>
+                <textarea name="text" id="text" name="text" cols="50" rows="20" placeholder="Enter your Text Here."></textarea>
+
+
+            </form>
+        </fieldset>
+      </main>
+</body>
+</html>
