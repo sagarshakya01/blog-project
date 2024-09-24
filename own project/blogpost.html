@@ -18,6 +18,7 @@
                 <li class="nav-item"><a href="./about.html">ABOUT</a></li>
                 <li class="nav-item"><a href="./contact.html">CONTACT</a></li>
                 <li class="nav-item "><a href="./product.html">PRODUCT</a></li>
+                <li class="nav-item"><a href="./blogpost.html">BLOG POST</a></li>
                 <!-- <li class="nav-itemin red"><a href="./singout.html">Sing Out</a></li> -->
                 <li class="nav-itemin green"><a href="./singin.html">Sing In</a></li>
                <a href="./profile.html"> <i class="fa-solid fa-user user"></i></a>
@@ -36,40 +37,68 @@
               <li><a href="./about.html">ABOUT</a></li>
               <li><a href="./contact.html">CONTACT</a></li>
               <li><a href="./product.html">PRODUCT</a></li>
+              <li><a href="./blogpost.html">BLOG POST</a></li>
               <li><a href="./singin.html">SING IN</a></li>
               <!-- <li class="singout-line"><a href="./singout.html">SING OUT</a></li> -->
             </ul>
           </div>
         </div>
       </header>
-      <main>
-        <h1>Blog Post</h1>
+      <main class="blog-main">
+        <h1 class="Blogmain-heading">Blog Post</h1>
         <fieldset>
             <form action="" class="blogpost">
-                <legend>Blog Details</legend><br><br>
-                <label for="Title">Title</label>
-                <input type="text" id="Title" name="Title" placeholder="Enter your Title" required>
+                <legend class="lr">Blog Details</legend><br><br>
+                <label for="Title" class="mm">Title :-</label>
+                <input type="text" class="input-blog" id="Title" name="Title" placeholder="Enter your Title" required>
 
+<fieldset class="fieldset">
+  <legend class="lr">Author Information</legend><br>
+  <label for="name" class="mm">Name :-</label>
+  <input type="text" class="input-blog" name="name" id="name" placeholder="Enter your Name" required><br>
+  <label for="detail" class="mm">Author Education Details :-</label>
+  <input type="text" class="input-blog" name="detail" id="detail" placeholder="Enter your Education Details" required><br>
+</fieldset>
 
+                
 
-                <legend>Author Information</legend><br>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Enter your Name" required><br>
-                <label for="detail">Author Education Details </label>
-                <input type="text" name="detail" id="detail" placeholder="Enter your Education Details" required><br>
-
-
-                <legend>Content</legend><br>
-                <label for="content">Add Content</label>
-                <textarea name="content" id="content" cols="50" rows="20" placeholder="Enter your Content Here." ></textarea><br>
-                <label for="video">Image or Video</label>
-                <input type="video" name="video" id="video" placeholder="Enter your Image or Video."><br>
-                <label for="text">Comment Section</label><br><br>
-                <textarea name="text" id="text" name="text" cols="50" rows="20" placeholder="Enter your Text Here."></textarea>
-
-
+                <fieldset class="fieldset">
+                  <legend class="lr">Content</legend><br>
+                <label for="content" class="mm">Add Content :-</label><br>
+                <textarea name="content" class="textarea" id="content" cols="50" rows="20" placeholder="Enter your Content Here." ></textarea><br>
+                <label for="video" class="mm">Image or Video :-</label>
+                <input type="video" class="input-blog" name="video" id="video" placeholder="Enter your Image or Video."><br>
+                </fieldset>
+                
+                <fieldset class="fieldset">
+                  <legend class="lr" >COMMENT SECTION</legend><br><br>
+                  <label for="COMMENT" class="mm">COMMENT :-</label><br><br>
+                <textarea name="text" class="textarea" id="text" name="text" cols="50" rows="20" placeholder="Enter your Text Here."></textarea>
+                </fieldset>
+                
+                <button class="submit-button2">SUBMIT</button>
             </form>
         </fieldset>
       </main>
+
+
+      <footer>
+        <div class="footer-content">
+          <h1 class="footer-heading">Start your game with us</h1>
+          <a href="contact.html"><button class="footer-btn">GET IN TOUCH</button><br><br><br><br><br><br><br><br><br><br><br><br></a>
+        <hr >  
+    <!-- <h1 class="footer-thank">THANK &nbsp;YOU</h1> -->
+    <P class="footer-copy">&copy; 2024 All Rights Reserved. Developed By <span style="color: yellow;">Sagar Shakya</span> </P>
+    <p class="footer-paragraph">Thanks for joining the gaming squad! If you're loving the content, be sure to subscribe and hit that notification bell to stay up-to-date on the latest gaming news, reviews, and tutorials. We're all about building a community of passionate gamers, and we'd love for you to be a part of it. Join the conversation by sharing your thoughts, tips and tricks in the comments below. Let's get the gaming party started! Follow us on social media for exclusive giveaways, behind-the-scenes peeks, and the latest gaming updates. We're all about spreading the gaming love, so share our content with your squad and let's grow this community together. Support us by cheacking out our affiliate links to level up your gaming setup. Thaks for begin an epic member of our gaming crew - see you in the next post.</p>
+    <p class="footer-comment">COMMENTS SECTION :-</p>
+    <form action="">
+      <textarea name="comments" id="comments" placeholder="COMMENT HERE" rows="20" cols="50" class="commentbox"></textarea>
+          <input type="submit" value="SUBMIT"  name="comments" id="comments" class="footer-btn2">
+    </form>
+          
+        </div>
+      </footer>
+
+
 </body>
 </html>

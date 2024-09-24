@@ -94,7 +94,7 @@ li {
  .header .navbar .nav-item{
     float: left;
     font-size: 15px;
-    margin-left: 120px;
+    margin-left: 80px;
     font-weight: 600;
     padding-top: 8px;
 }
@@ -577,6 +577,11 @@ li {
     margin: 50px 0px 0px 285px;
     font-size: 15px;
 }
+.homepage{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px  0 10px 270px;
+}
 
 /* @@@@@@@@@@@@@@@@@@@@ profile page @@@@@@@@@@@@@@@@@@@ */
 
@@ -720,4 +725,37 @@ li {
 /* ############## blog post ##################### */
 .blogpost{
     background-color: lightblue;
+}
+.fieldset{
+    margin: 20px 20px 20px 20px;
+}
+.Blogmain-heading{
+    font-size: 70px;
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+.lr{
+    font-size: 20px;
+}
+.mm{
+    font-size: 15px;
+    padding-left: 20px;
+}
+.input-blog{
+    font-size: 20px;
+    margin: 5px 5px 10px 10px ;
+}
+.textarea{
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.submit-button2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 20px;
+    margin-left:700px ;
+}
+.blog-main{
+    margin-bottom: 50px;
 }
